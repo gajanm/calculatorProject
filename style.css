@@ -1,0 +1,89 @@
+body{
+    
+    height: 100vh;
+
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    
+    width: 500px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #080f30;
+}
+
+.calculator > .display{
+    width: 450px;
+    height: 100px;
+    border: 2px solid black;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: white;
+    
+
+
+}
+
+.calculator > .display > .text-content{
+    font-size: 30px;
+    
+    width: 300px;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator > .container{
+    border: 2px solid black;
+    width: 450px;
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.calculator > .container > .row{
+    height:100px;
+    
+    display:flex;
+    justify-content: space-between;
+}
+
+.calculator > .container > .row > .cell{
+    border: 2px solid black;
+    width: 105px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calculator > .container > .row > .top{
+    
+    width: 200px;
+}
+
+.calculator > .container > .row > .top, #operator, #equal, #decimal {
+    background-color: #1052e0
+}
+
+.calculator > .container > .row > #number{
+    background-color:#3492eb
+}
+
+.calculator >.container > .row > .multiply{
+    width: 101px;
+}
+
+
